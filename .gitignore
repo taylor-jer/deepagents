@@ -223,3 +223,7 @@ libs/cli/TEXTUAL_PROGRESS.md
 */tmp/.DS_Store
 
 CLAUDE.md
+.env
+.venv
+*egg-info
+.*.sw*

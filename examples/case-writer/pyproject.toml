@@ -1,0 +1,21 @@
+[project]
+name = "content-builder-agent"
+version = "0.1.0"
+description = "A content writer agent configured entirely through files on disk"
+requires-python = ">=3.11"
+dependencies = [
+    "deepagents",
+    "google-genai>=1.0.0",
+    "langchain-openai>=1.1.9",
+    "pillow>=10.0.0",
+    "pypandoc>=1.16.2",
+    "pyyaml>=6.0.0",
+    "rich>=13.0.0",
+    "tavily-python>=0.5.0",
+    "typer>=0.24.0",
+]
+
+[dependency-groups]
+dev = []
+[tool.uv.sources]
+deepagents = { path = "../../libs/deepagents", editable = true }
